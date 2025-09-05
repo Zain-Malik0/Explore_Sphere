@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">ExploreSphere</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-wrapper">
+        <div class="title-wrapper">
+          <div class="title">
+            Say Hello
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form section -->
+    <section class="contact-form-section">
+      <div class="container">
+        <form action="">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+            </div>
+          </div>
+          
+          <div class="mb-3 email-wrapper">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+          </div>
+
+          <fieldset class="row mb-3 select-wrapper">
+            <legend class="col-form-label col-sm-2 pt-0">Select One</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked required>
+                <label class="form-check-label" for="gridRadios1">
+                  Booking Inquiry
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Information
+                </label>
+              </div>
+              <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  Other
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="mb-3 additional-wrapper">
+            <label for="exampleFormControlTextarea1" class="form-label">Additional Info</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrapper">
+        <div class="container-fluid">
+          <div class="main-heading">
+            SUBSCRIBE
+          </div>
+          <div class="sub-heading">
+            Get updates on lastest events
+          </div>
+          <div class="input-wrapper">
+            <form>
+              <button class="input-button" type="submit"><input type="email" placeholder="Type your email" required>SUBMIT</button>
+            </form>
+          </div>
+        </div>
+        <div class="rights">
+          <div class="text">© 2025 WH Foods. Designed with ❤️ by <a class="github-link" href="https://github.com/Zain-Malik0" target="_blank">Zain.</a></div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/general.js"></script>
+</html>
