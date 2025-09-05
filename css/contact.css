@@ -1,0 +1,65 @@
+/* Hero Section */
+.hero-section {
+  background-image: url("../media/images/events.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 100%;
+}
+
+.hero-section .hero-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .title {
+  color: white;
+  font-family: "Russo One";
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Form */
+
+.contact-form-section .container {
+  width: clamp(350px, 50vw, 800px);
+  padding: 60px 0;
+}
+
+.contact-form-section button,
+.contact-form-section button:hover,
+.contact-form-section button:active {
+  background-color: #121517 !important;
+  border: none !important;
+}
+
+.contact-form-section .form-check-input:checked {
+  background-color: #121517;
+  border-color: #121517;
+}
+
+.contact-form-section .form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgb(18, 21, 23, 0.25);
+}
+
+.contact-form-section input:focus,
+.contact-form-section textarea:focus {
+  border-color: #121517;
+  box-shadow: 0 0 0 0.25rem rgb(18, 21, 23, 0.25);
+}
+
+.email-wrapper {
+  margin-top: 30px;
+}
+
+.select-wrapper, .additional-wrapper {
+  margin-top: 30px;
+}

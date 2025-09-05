@@ -1,0 +1,140 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Russo+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0; 
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+  /* Navbar Styles */
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    z-index: 200;
+  }
+
+.navbar,
+.navbar .container-fluid {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+  .navbar-brand {
+    font-family: "Lato";
+    font-size: 30px !important;
+    font-weight: 700;
+    margin-left: 30px;
+  }
+
+  .navbar-brand:hover {
+    color: white;
+  }
+
+  .container-fluid {
+    background: transparent;
+  }
+
+  .navbar .active {
+    text-decoration: underline;
+  }
+
+  .nav-link {
+    margin-right: 32px;
+    color: white !important;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+  .nav-link:hover,
+  .navbar .active:hover {
+    text-decoration: underline;
+  }  
+
+  @media (max-width: 768px) {
+    /* styles for screens 768px wide and smaller */
+    .navbar-collapse {
+      text-align: right;
+    }
+    .navbar-nav {
+      margin-left: auto;
+    }
+  }
+
+/* Footer */
+footer {
+  background: url("../media/images/footer.png") no-repeat center center / cover, black;
+  color: white;
+  padding: clamp(4.375rem, 2.418rem + 8.696vw, 9.375rem) 10px 0px 10px;
+}
+
+footer .main-heading {
+  font-size: clamp(1.875rem, 1.25rem + 2.778vw, 3.75rem);
+}
+
+footer .sub-heading {
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 40px;;
+}
+
+footer .input-button {
+  color: white;
+  background-color: hsl(0, 0%, 10%);
+  border: none; 
+}
+
+footer input {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+}
+
+footer input::placeholder {
+   color: rgba(255,255,255,0.6);
+   font-size: 14px;
+}
+
+footer input:focus {
+  outline: none;
+}
+
+footer .main-heading {
+  font-family: "Russo One";
+}
+
+footer .rights {
+  margin-top: clamp(4.375rem, 2.418rem + 8.696vw, 9.375rem);
+  text-align: center;
+  border-top: 1px solid hsl(0,0%,98%);
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.github-link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+.github-link:active {
+  opacity: 0.8;
+}
